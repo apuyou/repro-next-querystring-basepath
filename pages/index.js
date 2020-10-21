@@ -11,6 +11,9 @@ export default function Home() {
         <li>
           <Link href="/static?foo=bar">Static with foo</Link>
         </li>
+        <li>
+          <Link href="/something">Dynamic</Link>
+        </li>
       </ul>
     </>
   )
